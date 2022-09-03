@@ -1,0 +1,161 @@
+body {
+    background-color: #46464614;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.portal {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.header {
+    height:100px;
+    border-bottom: 1px solid gray;
+}
+
+.header img {
+    height: 60px;
+    padding: 15px;
+}
+
+.header h1{
+    text-align: right;
+    top: 0;
+    padding: 25px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 700px;
+    height: 350px;
+    background-color: white;
+    box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.25), 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.container h3 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    padding: 20px;
+}
+
+form{
+    text-align: center;
+}
+
+form input{
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+}
+
+form a {
+    text-decoration: none;
+    background-color: gainsboro;
+    color: black;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: 1px solid gray;
+}
+
+.left {
+    width: 30%;
+    min-height: 500px;
+    float: left;
+}
+
+.left .links{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.profile {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 180px;
+    background-color: white;
+    text-align: center;
+}
+
+.profile img {
+    height: 150px;
+}
+
+.profile h3 {
+    margin: -5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.links a {
+    position: inherit;
+    text-decoration: none;
+    background-color: gainsboro;
+    color: black;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.25), 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.links a:hover{
+    background-color: yellow;
+}
+
+.right{
+    width: 70%;
+    float: left;
+}
+
+.containeright {
+    width: 400px;
+    height: 180px;
+    background-color: white;
+    box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.25), 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    background-color: #484848;
+}
+
+.containeright h1, h4, h6 {
+    color: white;
+    padding: 10px;
+    margin: -5px;
+}
+
+.containeright .buttons {
+    text-align: center;
+}
+
+.buttons button{
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 20px;
+}
+
+.right a {
+    float: right;
+    margin: 10px;
+    text-decoration: none;
+    background-color: gainsboro;
+    color: black;
+    padding: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: 1px solid gray;
+    box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.25), 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.right h3 {
+    margin-top: 50px;
+}
+
